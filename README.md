@@ -4,7 +4,22 @@
 “Terrorism Analysis and Finding Insights Application” is web application which will be used for predicting and analysing terrorism patterns and insights. 
 User Interface of Application is created using Dash (Plotly), HTML and CSS. 
 And for backend Python is used.
-This will be utilized by the client to discover the patterns of every sort of attack(such as:  Assassination, Kidnapping, Bombing, Hijacking, etc.). This application will likewise help in finding and analyzing by visualizing the map or chart by applying following filters:
+This will be utilized by the client to discover the patterns of every sort of attack(such as:  Assassination, Kidnapping, Bombing, Hijacking, etc.).
+# To run this follow steps below:
+
+1) Open Anaconda Prompt.
+(Make sure you downloaded the terror.yml script to the same directory so that Conda can find it.)
+2) Go inside the directory us cd command and run the following command:
+    conda env create -v -f terror.yml
+
+3) To enter this environment, you must use the following command. You must execute this command every time you open a new Anaconda/Miniconda terminal window:
+
+    conda activate Terror_Analysis
+4) Run the application using following command:
+    python task.py
+
+
+This application will likewise help in finding and analyzing by visualizing the map or chart by applying following filters:
 
 
 </> 	Map Tool :
@@ -57,3 +72,6 @@ the blend of Month, Day, Attack Type, Region,Country, State, City.
 •	Map Tool to generate a scatter Geo Map with markers for attacks happened.
 •	Chart Tool to show stacked line graph pictures of the frequency of attacks in every year. 
 •	User can change data dependent on year slider in both Map and Chart Tool.
+
+
+For any query or support, email me at :- sammysid97@gmail.com
