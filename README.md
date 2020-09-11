@@ -1,4 +1,6 @@
 # Terrorism-Analysis-and-finding-Insights-Application
+![Screenshot](1.jpg)
+
 “Terrorism Analysis and Finding Insights Application” is web application which will be used for predicting and analysing terrorism patterns and insights. 
 User Interface of Application is created using Dash (Plotly), HTML and CSS. 
 And for backend Python is used.
@@ -13,9 +15,16 @@ This will be utilized by the client to discover the patterns of every sort of at
 •	State Multi-select Dropdown
 •	City Multi-select Dropdown
 •	Attack Type Multi-select Dropdown
-•	Year Slider
+•	Year Slider 
 •	There is a year range slider for changing year.
+![Screenshot](download%20(2).png)
+
+
+![Screenshot](download%20(11).png)
+
 •	Note: India map tool: the region and country are fixed and set to south Asia and India respectively.
+
+![Screenshot](download%20(3).png)
 
 </> 	Chart Tool :
 •	Terrorist Group 
@@ -26,9 +35,16 @@ This will be utilized by the client to discover the patterns of every sort of at
 •	Country Attacked
 •	Weapon Type
 •	Year Slider
+
+![Screenshot](download%20(7).png)
+
+
 •	There is a Search box filter where user can enter specific keyword to search.
 •	There is a year slider same as year slider in map tool.
 •	Note: In India chart tool, the region and country are fixed and set to South Asia and India respectively. 
+
+![Screenshot](download%20(5).png)
+
 
 
 This project works in a following way: 
