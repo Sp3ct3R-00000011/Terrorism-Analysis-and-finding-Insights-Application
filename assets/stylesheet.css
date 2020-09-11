@@ -1,0 +1,176 @@
+/* CSS for app.py */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+
+#MainDiv {
+	color: #4d4d4d;
+	display: block;
+	margin: auto;
+}
+
+#heading{
+background-image: url('/assets/53000.jpg');
+background-size: cover;
+width:100%;}
+#options{
+    padding-bottom: 20px;
+
+background-image: url("/assets/bk1.jpg");
+background-size: cover;
+  width:100%;
+      height: 27em;
+}
+
+.rc-slider-handle {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    cursor: -webkit-grab;
+    margin-top: -5px;
+    cursor: grab;
+    border-radius: 50%;
+    border: solid 2px #96dbfaed!important;
+    background-color: #ffffff6b!important;}
+
+#main_title{
+color: white;
+
+padding: 15px;
+margin: 0;
+margin-bottom: 10px;
+                        font-size: 75px;
+                        text-align: center;
+
+}
+#Tabs, #subtabs, #subtabs2 {
+	width: 800px;
+	text-align: center;
+	display: block;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+#month, #date, #region-dropdown, 
+#country-dropdown, #state-dropdown, #city-dropdown, 
+#attacktype-dropdown, #chart-dropdowns, #chart_drop,  #month1, #date1, #region-dropdown1,
+#country-dropdown1, #state-dropdown1, #city-dropdown1,
+#attacktype-dropdown1, #chart-dropdowns1, #chart_drop1{
+	width: 795px;
+    height: auto;
+	text-align-last: center;
+	text-align: center !important;
+	display: block;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-top : 5px;
+    cursor: pointer;
+    background-color :transparent;
+}
+
+#year_title{
+    color: black;
+    font-size: 22px!important;
+    font-weight: bold;
+    padding-left: 19px;
+    margin: 0px;
+}
+#search, #search1{
+
+
+width: 795px;
+    height: 32px;
+    text-align-last: center;
+    text-align: center !important;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 25px; */
+    cursor: text;
+    border-radius: 4px;
+    background-color: white;
+    border: 0px;
+
+}
+#graph-object{
+ background-color: #a9a9a94a;
+}
+
+#year_slider{
+
+    background-color: #a9a9a94a;
+}
+#year_range_slider{
+
+    background-color: #a9a9a94a;
+        padding: 20px;
+    margin: 0;
+}
+.tab.jsx-3468109796 {
+    display: inline-block;
+    background-color: #f9f9f9db!important;}
+.tab--selected.jsx-3468109796 {
+    border-top: 2px solid #1975FA;
+    color: black;
+    background-color: white!important;
+
+#search {
+	height: 25px;
+	width: 250px;
+	text-align: center;
+	display: block;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#year-slider, #c-year-slider {
+	display: block;
+	height: 25px;
+	opacity: 0.7;
+	transition: opacity .2s;
+	padding: 20px 20px !important;
+    background-color: #e6e6e6;
+}
+
+#graph-object {
+	font-style: oblique;
+	display: block;
+	position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: all-scroll;
+}
+
+#map-tool:hover, #map-tool:active, #chart-tool:hover, #chart-tool:active {
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+#World:hover, #World:active, #India:hover, #India:active {
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+#WorldC:hover, #WorldC:active, #IndiaC:hover, #IndiaC:hover {
+	border: 1px solid #cccccc;
+	cursor: pointer;
+}
+
+#month:hover, #date:hover, #region-dropdown:hover,
+#country-dropdown:hover, #state-dropdown:hover, #city-dropdown:hover,
+#attacktype-dropdown:hover, #chart-dropdowns:hover{
+	border: 1px solid #cccccc;	
+}
